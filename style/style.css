@@ -15,7 +15,6 @@
 body {
   min-height: 1080px;
   height: fit-content;
-  overflow: hidden;
 }
 
 a {
