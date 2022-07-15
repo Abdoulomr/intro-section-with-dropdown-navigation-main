@@ -10,10 +10,12 @@ navListItems.forEach(function (navListItem) {
         const item = e.currentTarget.classList;
         if (item.contains('features__item')){
             features.classList.toggle('dd__features');
+            // To make the arrow down rotate
             featuresArrowDownIcon.classList.toggle('arrow__uped');
 
         } else if (item.contains('company__item')){
             company.classList.toggle('dd__company');
+            // To make the arrow down rotate
             companyArrowDownIcon.classList.toggle('arrow__uped');
 
         }
