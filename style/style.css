@@ -9,6 +9,7 @@
   font-family: "Epilogue";
   background-color: hsl(0, 0%, 98%);
   color: hsl(0, 0%, 8%);
+  box-sizing: border-box;
 }
 
 /*------------------------------------------------------------------Body-------------------------------------------------------------------------------------------------*/
@@ -17,6 +18,7 @@ body {
   height: fit-content;
   overflow-x: hidden;
   position: relative;
+  overflow-x: hidden;
 }
 
 a {
