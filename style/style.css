@@ -49,6 +49,7 @@ a:hover {
 
 .nav {
   display: block;
+  visibility: hidden;
   z-index: 995;
   width: 65vw;
   height: 100vh;
@@ -69,6 +70,7 @@ a:hover {
 
 .nav__active {
   display: block;
+  visibility: visible;
   z-index: 995;
   width: 65vw;
   height: 100vh;
