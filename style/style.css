@@ -51,7 +51,6 @@ a:hover {
 
 .nav {
   display: block;
-  visibility: hidden;
   z-index: 995;
   width: 65vw;
   height: 100vh;
@@ -152,28 +151,34 @@ a:hover {
 }
 
 .burger {
+  visibility: visible;
   position: absolute;
   z-index: 50;
   top: 4px;
   background-color: transparent;
+  transition: all 300ms ease-in-out;
+  transition-delay: 100ms;
 }
 
 .burger__hidden {
   display: none;
-  transition: 1s;
+  visibility: hidden;
 }
 
 .close__burger {
-  display: none;
+  visibility: hidden;
 }
 
 .close__burger--displayed {
+  visibility: visible;
   display: block;
   position: absolute;
   z-index: 49;
   left: 3px;
   background-color: transparent;
   z-index: 999;
+  transition: all 300ms ease-in-out;
+  transition-delay: 100ms;
 }
 
 /*--------------------CONTAINER----------------------------*/
