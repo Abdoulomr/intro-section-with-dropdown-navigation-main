@@ -271,7 +271,7 @@ Deskop styling
 
 */
 
-@media screen and (min-width: 870px) {
+@media (min-width: 870px) {
   .burger__menu {
     display: none;
   }
